@@ -1,0 +1,119 @@
+:root {
+  --main-color: #001E27;
+  --btn-color: #00E2F4;
+}
+
+@media(min-width: 850px) {
+  .bg-image {
+    background-color: transparent !important;
+  }
+
+  header nav {
+    background-color: transparent;
+  }
+
+  div.polygon {
+    display: inherit;
+  }
+
+  #capitalize-mobile {
+    display: none !important;
+  }
+
+  #capitalize-desktop {
+    width: 350px;
+    margin-left: 50%;
+    text-align: left;
+  }
+
+  .container-fluid {
+    color: var(--main-color) !important;
+  }
+
+  .hero-image {
+    position: absolute;
+  }
+
+  main .hero-image {
+    margin-top: -35%;
+    width: 440px;
+    height: 274px;
+    margin-bottom: 5rem;
+  }
+
+  .main-content {
+    margin-top: 6rem;
+  }
+
+  main .main-content h1,
+  main .main-content p {
+    width: 800px;
+    text-align: center;
+  }
+
+  .main-content img {
+    display: none;
+  }
+
+  header nav .container-fluid .tryit {
+    position: absolute;
+    right: 5%;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--main-color);
+  }
+}
+
+@media (min-width: 1000px) {
+  div.polygon {
+    width: 550px;
+  }
+
+  main .hero-image {
+    margin-top: -30%;
+  }
+
+  header nav .container-fluid .tryit {
+    position: absolute;
+    right: 5%;
+  }
+
+  #navbarExample01 {
+    margin-left: 15%;
+  }
+
+  .navbar-nav li {
+    color: var(--main-color) !important;
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 1300px) {
+  div.polygon {
+    width: 550px;
+  }
+
+  main .hero-image {
+    margin-top: -25%;
+    width: 500px;
+  }
+
+  #capitalize-desktop {
+    width: 500px;
+    margin-top: 10%;
+  }
+
+  header nav .container-fluid .tryit {
+    position: absolute;
+    right: 5%;
+  }
+
+  #navbarExample01 {
+    margin-left: 20%;
+  }
+
+  .navbar-nav li {
+    margin: 0 1rem;
+  }
+}
